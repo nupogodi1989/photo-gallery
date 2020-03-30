@@ -15,6 +15,11 @@ const Tab2: React.FC = () => {
         </IonToolbar>
       </IonHeader>
       <IonContent>
+        <IonFab vertical="bottom" horizontal="center" slot="fixed">
+          {/*<IonFabButton onClick={() => takePhoto()}>*/}
+          {/*  <IonIcon icon={camera}></IonIcon>*/}
+          {/*</IonFabButton>*/}
+        </IonFab>
         <IonHeader collapse="condense">
           <IonToolbar>
             <IonTitle size="large">Tab 2</IonTitle>
